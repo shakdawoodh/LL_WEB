@@ -55,7 +55,7 @@ body{
     align-items: center;
     background-color: var(--hero_bg);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 .ll_hero_section img{
   width:400px;
