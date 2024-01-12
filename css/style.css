@@ -7,17 +7,19 @@
 body{
     --header_color:#dcdcdc;
     --font_coor:#333;
+    --hero_bg:#f7f3f0;
    
 }
 
 
 .ll_header_section{
-   background-color: var(--header_color);
+    position: fixed;
+    width: 100%;
+    background-color: var(--header_color);
     height:76px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
     box-shadow: rgba(100, 100, 111, 0.2) 2px -3px 19px;
     
 
@@ -26,7 +28,9 @@ body{
 
 .ll_header_section img {
     padding: 5px;
-    width: 120px;
+    width: 120px;  
+    padding: 0 16px;
+    
 }
 
 .ll_menu ul{
@@ -34,6 +38,8 @@ body{
     list-style: none;
     align-items: center;
     gap:25px;
+    padding: 0 16px;
+    
 
 }
 .ll_menu ul a{
@@ -42,7 +48,20 @@ body{
    color: var(--font_coor);
     
 }
-
+.ll_hero_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--hero_bg);
+    height: 100vh;
+}
 .ll_hero_section img{
-  width: 200px;
+  width:900px;
+}
+
+.ll_hero_section h1{
+    font-size: 100px;
+    font-weight: 200;
+    color: var(--font_coor);
 }
