@@ -1,0 +1,40 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body{
+    --header_color:#dcdcdc;
+   
+}
+
+
+.ll_header_section{
+   background-color: var(--header_color);
+    height:76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    
+
+
+}
+
+.ll_header_section img {
+    padding: 5px;
+    width: 120px;
+}
+
+.ll_menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:25px;
+
+}
+.ll_menu ul a{
+   text-decoration: none;
+    
+}
